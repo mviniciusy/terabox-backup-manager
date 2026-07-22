@@ -6,15 +6,15 @@ __pycache__/
 
 # Node
 
-node_moddules/
+node_modules/
 node/package-lock.json
 
 # Ambiente
 .env
 
-#SQLite
+# SQLite
 *.db
 *.db-journal
 
 # OS
-.DS_Storenode_modules/
+.DS_Store

@@ -1,0 +1,12 @@
+services:
+  terabox-backup:
+  build: .
+  container_name: terabox-backup-manager
+  restartt: unsless-stopped
+  ports:
+  - "8090:8090"
+  volumes:
+  - ./data:/data
+  - ./node:/app/node
+  env_file:
+  - .env

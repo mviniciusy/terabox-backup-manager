@@ -1,0 +1,20 @@
+# Python
+
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+
+node_moddules/
+node/package-lock.json
+
+# Ambiente
+.env
+
+#SQLite
+*.db
+*.db-journal
+
+# OS
+.DS_Store

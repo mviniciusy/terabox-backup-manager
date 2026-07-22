@@ -17,4 +17,4 @@ node/package-lock.json
 *.db-journal
 
 # OS
-.DS_Store
+.DS_Storenode_modules/

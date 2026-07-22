@@ -2,7 +2,7 @@ services:
   terabox-backup:
   build: .
   container_name: terabox-backup-manager
-  restartt: unsless-stopped
+  restart: unless-stopped
   ports:
   - "8090:8090"
   volumes:
